@@ -1,3 +1,28 @@
+# imagens
 *.jpg
 *.png
+*.jpeg
+*.gif
+
+# documentos
 *.pdf
+*.docx
+
+# java compilado
+*.class
+
+# pastas de build
+bin/
+build/
+out/
+
+# logs
+*.log
+
+# arquivos temporarios
+*.tmp
+*.temp
+.txt
+
+# vscode
+.vscode/
