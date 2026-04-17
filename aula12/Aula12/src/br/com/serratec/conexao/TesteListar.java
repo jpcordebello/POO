@@ -7,6 +7,8 @@ public class TesteListar {
         ClienteDao dao = new ClienteDao();
         for (Cliente cliente : dao.listar()) {
             System.out.println(cliente);
+
+            //TESTE COMMIT ONLINE
         }
     }
 }
