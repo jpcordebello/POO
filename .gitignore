@@ -9,15 +9,7 @@
 *.docx
 
 # java compilado
-*.class
 
-# pastas de build
-bin/
-build/
-out/
-
-# logs
-*.log
 
 # arquivos temporarios
 *.tmp
@@ -25,4 +17,3 @@ out/
 .txt
 
 # vscode
-.vscode/

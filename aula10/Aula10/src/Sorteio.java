@@ -1,0 +1,29 @@
+import java.util.*;
+
+public class Sorteio <T>{
+    private List<T> lista;
+    private Random random;
+    
+    
+    public Sorteio() {
+        lista = new ArrayList<>();
+        random = new Random();
+    }
+
+    public void adicionar(T elemento) {
+        lista.add(elemento);
+    }
+
+    public void remover(T elemento) {
+        lista.remove(elemento);
+    }
+
+    public T sortear() {
+        int pos = random.nextInt(lista.size());
+        return lista.get(pos);
+    }
+}
+    
+
+
+
